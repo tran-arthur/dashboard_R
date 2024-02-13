@@ -1,9 +1,8 @@
-#Notice d'utilisation de l'application Shiny sur les milliardaires
+# Notice d'utilisation de l'application Shiny sur les milliardaires
 
 Cette application a pour but de collecter des informations sur les individus les plus fortunés du monde. De plus, son objectif est de présenter visuellement ces données de manière précise et conviviale sur le site.
-Le projet est disponible ici: https://git.esiee.fr/texiera/projet-e4-r
 
-###Guide de l'utilisateur
+### Guide de l'utilisateur
 
 **Mise en route**:
 Premièrement, télécharger l'ensemble des fichiers du projet. Il faut ensuite lancer Rstudio, et créer un nouveau projet Shiny en ouvrant le répertoire qui contient les fichiers du projet. Ouvrez le fichier requiremens.txt pour connaître les packages à installer. Pour chaque package "package_name" présent dans le fichier, effectuer la commande: install.packages("package_name"). Pour démarrer le projet, il faut compiler le fichier **app.R**. Une fenêtre s'ouvre avec l'ensemble du dashboard.
@@ -11,7 +10,7 @@ Premièrement, télécharger l'ensemble des fichiers du projet. Il faut ensuite 
 **Architecture du site:**
 Le site comporte six graphiques différents. Ils se succèdent les uns les autres. Le premier est un diagramme en barre, le deuxième et le quatrième sont une carte, le suivant est un histogramme, après il y a un box plot et un diagramme circulaire.
 
-###Analyse de données
+### Analyse de données
 
 Premièrement, le jeu de données sélectionné provient de : https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset.
 
@@ -57,7 +56,7 @@ Enfin, il y a le diagramme circulaire dynamique. Ce diagramme est accompagné d'
 
 On peut conclure que la population des milliardaires peut être caractérisée en majorité par des hommes agés vivant dans les pays développés qui se sont construit leur richesse eux-mêmes.
 
-###Guide du développeur
+### Guide du développeur
 
 Le projet est divisé en quatre principaux fichiers **.R**. Les fichiers en question sont: global.R, ui.r, app.R et server.R.
 
